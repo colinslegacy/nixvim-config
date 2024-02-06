@@ -3,22 +3,6 @@
 
   keymaps = [
     {
-      mode = [ "n" "v" ];
-      key = "<leader>y";
-      action = "\"+y";
-      options = {
-        desc = "Copy to system clipboard";
-      };
-    }
-    {
-      mode = [ "n" "v" ];
-      key = "<leader>p";
-      action = "\"+p";
-      options = {
-        desc = "Paste from system clipboard";
-      };
-    }
-    {
       mode = "n";
       key = "<leader>wv";
       action = "<cmd>vsplit<cr>";

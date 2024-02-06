@@ -10,6 +10,9 @@
       fetchingTimeout = 200;
       maxViewEntries = 30;
     };
+    mapping = {
+      "<CR>" = "cmp.mapping.confirm({ select = true })";
+    };
     formatting = {
       fields = [ "kind" "abbr" "menu" ];
     };

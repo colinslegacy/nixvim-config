@@ -1,5 +1,8 @@
 { pkgs, lib, config, ... }: {
   config = {
+    clipboard = {
+      register = "unnamedplus";
+    };
     options = {
       number = true;
       relativenumber = true;
