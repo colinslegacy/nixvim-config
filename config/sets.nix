@@ -2,6 +2,7 @@
   config = {
     clipboard = {
       register = "unnamedplus";
+      providers.wl-copy.enable = true;
     };
     options = {
       number = true;
