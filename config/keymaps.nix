@@ -44,7 +44,7 @@
     }
     {
       mode = "n";
-      key = "<leader>gp";
+      key = "<leader>fp";
       action = "<cmd>Telescope projects<cr>";
       options = {
         desc = "Open projects";

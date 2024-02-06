@@ -18,6 +18,7 @@
 
     ./treesitter/treesitter.nix
 
+    ./utils/beacon.nix
     ./utils/better-escape.nix
     ./utils/colorizer.nix
     ./utils/floatterm.nix
