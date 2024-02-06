@@ -25,9 +25,11 @@
     ./utils/illuminate.nix
     ./utils/mini.nix
     ./utils/persistence.nix
+    ./utils/plenary.nix
     ./utils/project-nvim.nix
     ./utils/tabout.nix
     ./utils/which-key.nix
+    ./utils/wilder.nix
     ./utils/vim-nix.nix
 
     ./sets.nix
