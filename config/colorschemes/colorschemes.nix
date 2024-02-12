@@ -9,6 +9,10 @@
     ayu = {
       enable = true;
     };
+    kanagawa = {
+      enable = false;
+      theme = "dragon";
+    };
     tokyonight = {
       enable = false;
       style = "night";

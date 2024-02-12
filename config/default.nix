@@ -11,6 +11,7 @@
     ./telescope/telescope.nix
     ./filetrees/neo-tree.nix
 
+    ./ui/airline.nix
     ./ui/alpha.nix
     ./ui/noice.nix
     ./ui/nui.nix
@@ -20,7 +21,10 @@
 
     ./utils/beacon.nix
     ./utils/better-escape.nix
+    ./utils/block.nix
     ./utils/colorizer.nix
+    ./utils/comment.nix
+    ./utils/emmet.nix
     ./utils/floatterm.nix
     ./utils/illuminate.nix
     ./utils/mini.nix

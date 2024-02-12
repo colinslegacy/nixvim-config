@@ -101,9 +101,17 @@
     {
       mode = "n";
       key = "<leader>rs";
-      action = "<cmd>:lua require('persistence').load()<cr>";
+      action = "<cmd>lua require('persistence').load()<cr>";
       options = {
         desc = "Restore session";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>se";
+      action = ":Emmet ";
+      options = {
+        desc = "Start Emmet";
       };
     }
   ];

@@ -67,7 +67,7 @@
       action = ":Neotree toggle source=document_symbols position=right<CR>";
       options = {
         silent = true;
-        desc = "Git explorer";
+        desc = "Document symbols";
       };
     }
   ];
