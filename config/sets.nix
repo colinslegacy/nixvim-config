@@ -4,7 +4,7 @@
       register = "unnamedplus";
       providers.wl-copy.enable = true;
     };
-    options = {
+    opts = {
       number = true;
       relativenumber = true;
 
