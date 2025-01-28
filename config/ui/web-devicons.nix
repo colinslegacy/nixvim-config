@@ -1,5 +1,5 @@
 {
-  plugins.colorizer = {
+  plugins.web-devicons = {
     enable = true;
   };
 }

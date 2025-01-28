@@ -1,8 +1,8 @@
 {
   plugins.floaterm = {
     enable = true;
-    keymaps = {
-      toggle = "<leader>ot";
+    settings = {
+      keymap_toggle = "<leader>ot";
     };
   };
 }

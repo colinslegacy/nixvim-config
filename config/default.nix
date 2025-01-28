@@ -16,6 +16,7 @@
     ./ui/noice.nix
     ./ui/nui.nix
     ./ui/nvim-notify.nix  
+    ./ui/web-devicons.nix
 
     ./treesitter/treesitter.nix
 

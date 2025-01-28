@@ -9,7 +9,7 @@
         nixd = {
           enable = true;
         };
-        tsserver = {
+        ts_ls = {
           enable = true;
           filetypes = [ "javascript" "javascriptreact" "typescript" "typescriptreact" ];
         };

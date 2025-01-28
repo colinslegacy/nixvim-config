@@ -1,24 +1,26 @@
 {
   plugins.noice = {
     enable = true;
-    notify = {
-      enabled = false;
-    };
-    messages = {
-      enabled = true;
-    };
-    lsp = {
-      message = {
+    settings = {
+      lsp = {
+        message = {
+          enabled = true;
+        };
+        progress = {
+          enabled = true;
+          view = "mini";
+        };
+      };
+      notify = {
         enabled = true;
       };
-      progress = {
-        enabled = false;
-        view = "mini";
+      popupmenu = {
+        enabled = true;
+        backend = "nui";
       };
-    };
-    popupmenu = {
-      enabled = true;
-      backend = "nui";
+      messages = {
+        enabled = true;
+      };
     };
   };
 }
